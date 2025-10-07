@@ -1,0 +1,39 @@
+# --- Python / build ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+build/
+
+# --- Environnements virtuels ---
+venv/
+.env/
+.venv/
+
+# --- Secrets / config locales ---
+token.txt
+*.env
+*.secret
+*.key
+
+# --- Logs / caches ---
+*.log
+logs/
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- OS / éditeurs ---
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# VS Code / JetBrains
+.vscode/
+.idea/
